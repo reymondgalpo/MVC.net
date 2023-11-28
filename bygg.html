@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYGG</title>
+    <style>
+        
+        .chic, .putato, .faidchic, .bread{
+            border: solid darkorange;
+            box-shadow: 5px 5px 5px 2px pink
+        }
+        #static{
+            position: static;
+            background-color: black;
+            border: 2px solid darkorange;
+            color: rgb(255, 255, 255);
+        }
+
+
+        #relative{
+            position: relative;
+            top: 50px;
+            left: 30%;
+            background-color: darkorange;
+            border: 2px solid rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+        }
+
+    #absolute{
+        position: absolute;
+        right: 0%;
+        top: 30px;
+        background-color: aliceblue;
+        border: 2px solid blue;
+        color: black;
+        }
+
+        #fixed{
+            position: fixed;
+            left: 0;
+            bottom: 50px;
+            background-color: rgb(0, 0, 0);
+            border: 2px solid darkorange;
+            color: black;
+        }
+
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: rgb(0, 0, 0);
+            border: 2px solid darkorange;
+            color: rgb(255, 255, 255);
+            
+        }
+
+        .chic{
+            position: absolute;
+            z-index: 1;
+            right: 660px;
+            width: 250px;
+            height: 150px;
+            top: 10px;
+            
+        }
+        .putato{
+            position: absolute;
+            z-index: 2;
+            top: 165px;
+            width: 200px; 
+            height: 150px;
+            left: 450px;
+        }
+
+        .faidchic{
+            position: absolute;
+            z-index: 3;
+            top: 10px;
+            right: 500px;
+            width: 200px; 
+            height: 150px;
+        }
+
+        .bread{
+            position: absolute;
+            z-index: 4;
+            top: 165px;
+            left: 660px;
+            width:200px; 
+            height:150px;
+        }
+
+        .speish{
+            background-color: black;
+            width: 100%;
+            position: sticky;
+            top: 0%;
+            height: 300px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+
+        h1, p{
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    
+    <div class="speish">
+    <img src="Foods/Chicken Nuggets.jpg" class="chic">
+    <img src="Foods/Potato Nuggets.jpg" class="putato">
+    <img src="Foods/Fried Chicken.jpg" class="faidchic">
+    <img src="Foods/Garlic Bread.jpg" class="bread">
+    </div>
+    <br>
+    <br>
+    <br>
+    <marquee width="70%" direction="left" height="100px">
+    <p id="static">I am static</p>
+    <p id="relative">I am relative</p>
+    <p id="absolute">I am absolute</p>
+    <p id="fixed">I am fixed</p>
+    <p id="sticky">I am sticky</p>
+</marquee>
+    <h1>How to get kidney stone</h1>
+    <p>1. Buy lots of junk food</p>
+    <p>2. Eat lots of junk food</p>
+    <p>3. Buy more</p>
+    <p>4. Eat more</p>
+    <p>5. Repeat </p>
+    <p>6. Drink olive oil</p>
+    <p>7. Faint</p>
+    <p>8. Sent to hospital</p>  
+    <p>9. Get diagnosed with kidney stone</p>
+    <p>10. Celebrate</p>
+    <p>11. If not work. <b>Repeat<b></p>
+</body>
+</html>

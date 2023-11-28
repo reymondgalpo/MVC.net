@@ -1,0 +1,29 @@
+h1,h2 p {color: rgba(165, 77, 42, 0.863);
+    text-align: center;}
+
+    body{background-color: grey;
+        text-align: center;}
+
+    h1{border: 2px dotted black; 
+        background-color: blanchedalmond; 
+        border-radius: 25px;
+        text-align: center;}
+
+    h2{border: 5px double ghostwhite; 
+        margin-bottom: 100px; 
+        background-color: blanchedalmond; 
+        color: rgba(165, 77, 42, 0.863);
+        text-align: center;}
+
+    p{border: 3px solid darkolivegreen;
+        text-align: center;}
+
+    #desc{border: 3px double antiquewhite; 
+        background-color: blanchedalmond; 
+        color: rgba(165, 77, 42, 0.863);
+        text-align: center;}
+    
+    .hobby{border: 3px double moccasin; 
+        background-color:blanchedalmond; 
+        color:rgba(165, 77, 42, 0.863);
+        text-align: center;}
