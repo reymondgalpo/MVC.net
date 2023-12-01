@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+h1{
+    border: 1px solid aqua;
+    padding: 15px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.table {
+    background-color: darkcyan;
+    color: blanchedalmond;
+    border: 3px solid aqua;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 80px 5px;
+    gap: 10px;
+    display: grid;
+    padding: 20px;
+}
+
+.table > div{
+    background-color: darkcyan;
+    border: 3px solid aqua;
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.table2{
+    background-color: darkcyan;
+    color: blanchedalmond;
+    border: 3px solid aqua;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 80px 5px;
+    gap: 10px;
+    padding: 20px;
+    display: grid;
+}
+
+.table2 > div{
+    background-color: darkcyan;
+    border: 3px solid aqua;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    margin-left: 250px;
+    border-radius: 25px;
+}
+
+.item{
+    background-color: darkcyan;
+    color: blanchedalmond;
+    border: 3px solid aqua;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 80px 4px;
+    gap: 10px;
+    padding: 20px;
+    display: grid;
+    width: 70%;
+}
+
+.item > div{
+    background-color: darkcyan;
+    border: 3px solid aqua;
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+
+.sale > div{
+    background-color: darkcyan;
+    color: blanchedalmond;
+    border: 3px solid aqua;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 80px 4%;
+    gap: 10px;
+    padding: 20px;
+    display: grid;
+    width: 20%;
+}
