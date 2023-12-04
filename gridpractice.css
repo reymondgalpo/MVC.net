@@ -1,86 +1,168 @@
-body{
-    background-color: black;
+div{
+    border: 2px solid black;
 }
-
-h1{
-    border: 1px solid aqua;
-    padding: 15px;
-    color: blanchedalmond;
-    text-align: center;
-}
-
-.table {
-    background-color: darkcyan;
-    color: blanchedalmond;
-    border: 3px solid aqua;
-    grid-template-columns: 300px auto 300px;
-    grid-template-rows: 80px 5px;
-    gap: 10px;
+.gridcon1{
     display: grid;
-    padding: 20px;
-}
-
-.table > div{
-    background-color: darkcyan;
-    border: 3px solid aqua;
-    padding: 20px 0;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.table2{
-    background-color: darkcyan;
-    color: blanchedalmond;
-    border: 3px solid aqua;
-    grid-template-columns: 800px 800px;
-    grid-template-rows: 80px 5px;
+    grid-template-columns: auto 600px 500px;
     gap: 10px;
-    padding: 20px;
-    display: grid;
+    margin: 5px;
+    padding: 5px;
+    height: 80px;
+    border: 3px solid darkgoldenrod;
 }
-
-.table2 > div{
-    background-color: darkcyan;
-    border: 3px solid aqua;
+.gridcon1>div{
     text-align: center;
     font-size: 30px;
-    padding: 20px 0;
-    margin-left: 250px;
-    border-radius: 25px;
+    border: 3px solid darkgoldenrod;
 }
-
-.item{
-    background-color: darkcyan;
-    color: blanchedalmond;
-    border: 3px solid aqua;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 80px 4px;
-    gap: 10px;
-    padding: 20px;
+.gridcon2{
     display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid blue;
+}
+.gridcon2>div{
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid blue;
+}
+.gridcon3{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    height:850px;
     width: 70%;
+    border: 3px solid red;
 }
-
-.item > div{
-    background-color: darkcyan;
-    border: 3px solid aqua;
-    display: grid;
+.gridcon3>div{
     text-align: center;
     font-size: 30px;
-    padding: 20px 0;
-    margin-left: 1%;
-    border-radius: 25px;
+    border: 3px solid red;
+}
+.gridcon4{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    height:850px;
+    width: 26.7%;
+    float: right;
+    margin-top: -869px;
+    border: 3px solid yellow;
+}
+.gridcon4>div{
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid yellow;
+}
+.gridcon5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    height: 150px;
+    border: 3px solid blueviolet;
+}
+.gridcon5>div{
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid blueviolet;
+}
+.griditemsearchbar{
+    grid-column: 2;
+    grid-row: 1;
+    height: 76px;
+}
+.searchcon1{
+    height: 76px;
+    width: 596px;
+    border-radius: 0;
+    font-size: 50px;
+}
+.searchcon1:hover{
+    height: 76px;
+    width: 100%;
+    border-radius: 0;
+    background-color: lightgray;
+}
+.griditemnavbar{
+    grid-column: 3;
+    grid-row: 1;
+    height: 76px;
+}
+.griditemads1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.griditemads2{
+    grid-column: 3;
+    grid-row: 1;
+    float: right;
+}
+.griditem2{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+.griditem3{
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+.griditem4{
+    grid-column: 1;
+    grid-row: 3 / span 2;
+}
+.griditem5{
+    grid-column: 2;
+    grid-row: 3 / span 2;
+}
+.griditem6{
+    grid-column: 1;
+    grid-row: 5 / span 2;
+}
+.griditem7{
+    grid-column: 2;
+    grid-row: 5 / span 2;
+}
+.griditem8{
+    grid-column: 1;
+    grid-row: 7 / span 2;
+}
+.griditem9{
+    grid-column: 2;
+    grid-row: 7 / span 2;
+}
+.griditem10{
+    grid-column: 1 / span 2;
+    grid-row: 9 /span 7;
+}
+.griditem11{
+    grid-column: 1;
+    grid-row: 1 span 2;
+}
+.griditem12{
+    grid-column: 1;
+    grid-row: 2 span 2;
+}
+.griditem13{
+    grid-column: 1;
+    grid-row: 3 span 2;
+}
+.griditem14{
+    grid-column: 1;
+    grid-row: 4;
+}
+.griditem15{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+.align{
+    text-align: center;
 }
 
-.sale > div{
-    background-color: darkcyan;
-    color: blanchedalmond;
-    border: 3px solid aqua;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 80px 4%;
-    gap: 10px;
-    padding: 20px;
-    display: grid;
-    width: 20%;
-}
+
