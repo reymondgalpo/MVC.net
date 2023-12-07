@@ -3,30 +3,58 @@ div{
 }
 .gridcon1{
     display: grid;
-    grid-template-columns: auto 600px 500px;
+    grid-template-areas: 
+    'Logo Searchbar Searchbar Searchbar Navbar Navbar Navbar';
     gap: 10px;
     margin: 5px;
     padding: 5px;
-    height: 80px;
-    border: 3px solid darkgoldenrod;
+    height: 110px;
+    text-align: center;
+    font-size: 30px;
+    border: 5px solid black;
+}
+.Lo{
+    grid-area: Logo;
+    border: 5px solid blue;
+    height: 100px;
+}
+.Sr{
+    grid-area: Searchbar;
+    border: 5px solid blue;
+    height: 100px;
+}
+.Nr{
+    grid-area: Navbar;
+    border: 5px solid blue;
+    height: 100px;
 }
 .gridcon1>div{
     text-align: center;
     font-size: 30px;
-    border: 3px solid darkgoldenrod;
+    border: 5px solid green;
 }
 .gridcon2{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    'Ad1 Ad1 Ad1 Ad2 Ad2 Ad2';
     gap: 10px;
     margin: 5px;
     padding: 5px;
-    border: 3px solid blue;
+    border: 5px solid black;
 }
 .gridcon2>div{
     text-align: center;
     font-size: 30px;
-    border: 3px solid blue;
+}
+.Atem1{
+    grid-area: Ad1;
+    border: 5px solid blue;
+    height: 100px;
+}
+.Atem2{
+    grid-area: Ad2;
+    border: 5px solid blue;
+    height: 100px;
 }
 .gridcon3{
     display: grid;
@@ -36,12 +64,12 @@ div{
     padding: 5px;
     height:850px;
     width: 70%;
-    border: 3px solid red;
+    border: 5px solid black;
 }
 .gridcon3>div{
     text-align: center;
     font-size: 30px;
-    border: 3px solid red;
+    border: 5px solid red;
 }
 .gridcon4{
     display: grid;
@@ -53,58 +81,54 @@ div{
     width: 26.7%;
     float: right;
     margin-top: -869px;
-    border: 3px solid yellow;
+    border: 5px solid black;
 }
 .gridcon4>div{
     text-align: center;
     font-size: 30px;
-    border: 3px solid yellow;
+    border: 5px solid goldenrod;
 }
 .gridcon5{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    'info links follow'
+    'copyright copyright copyright';
     gap: 10px;
     margin: 5px;
     padding: 5px;
-    height: 150px;
-    border: 3px solid blueviolet;
+    width: 98.6%;
+    height: 190px;
+    border: 5px solid black;
 }
 .gridcon5>div{
-    text-align: center;
     font-size: 30px;
-    border: 3px solid blueviolet;
+    border: 5px solid blueviolet;
 }
-.griditemsearchbar{
-    grid-column: 2;
-    grid-row: 1;
-    height: 76px;
+
+.io{
+    grid-area: info;
+    position: relative;
+    height: 100px;
 }
-.searchcon1{
-    height: 76px;
-    width: 596px;
-    border-radius: 0;
-    font-size: 50px;
+
+.lik{
+    grid-area: links;
+    position: relative;
+    height: 100px;
 }
-.searchcon1:hover{
-    height: 76px;
-    width: 100%;
-    border-radius: 0;
-    background-color: lightgray;
+
+.fw{
+    grid-area: follow;
+    position: relative;
+    height: 100px;
 }
-.griditemnavbar{
-    grid-column: 3;
-    grid-row: 1;
-    height: 76px;
+
+.ct{
+    grid-area: copyright;
+    position: relative;
+    height: 50px;
 }
-.griditemads1{
-    grid-column: 1;
-    grid-row: 1;
-}
-.griditemads2{
-    grid-column: 3;
-    grid-row: 1;
-    float: right;
-}
+
 .griditem2{
     grid-column: 1;
     grid-row: 1 / span 2;
@@ -164,5 +188,7 @@ div{
 .align{
     text-align: center;
 }
+
+
 
 
